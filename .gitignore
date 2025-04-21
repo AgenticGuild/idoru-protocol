@@ -1,0 +1,29 @@
+# Rust
+/target
+**/*.rs.bk
+Cargo.lock
+
+# Go
+go.sum
+*.exe
+*.test
+*.prof
+*.out
+
+# OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Node/Python
+node_modules/
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+idoru_vm 
