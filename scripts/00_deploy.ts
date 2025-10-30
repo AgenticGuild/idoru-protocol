@@ -6,7 +6,7 @@ async function main() {
   const [deployer] = await ethers.getSigners();
 
   const FEE_COLLECTOR = process.env.FEE_COLLECTOR || deployer.address;
-  const FACILITATOR = ethers.Wallet.fromPrivateKey((process.env.FACILITATOR_PK || "0x" + "11".repeat(32)) as `0x${string}`).address;
+  const FACILITATOR = new ethers.Wallet((process.env.FACILITATOR_PK || ("0x" + "11".repeat(32))) as `0x${string}`).address;
   const USDC_ADDR = process.env.USDC_ADDR;
   const EAS_ADDR = process.env.EAS_ADDR;
 

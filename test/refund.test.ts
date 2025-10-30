@@ -46,7 +46,7 @@ describe("PaymentGatewayV2 refund", () => {
       { name: "nonce", type: "uint256" },
       { name: "pid", type: "bytes32" }
     ] } as const;
-    const sig = await owner.signTypedData(domain, types as any, quote as any);
+    const sig = await facilitator.signTypedData(domain, types as any, quote as any);
     await gw.connect(facilitator).quote(quote, sig);
 
     // wait expiry + window
