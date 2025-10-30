@@ -1,0 +1,8 @@
+{
+    "balances": {
+        "X-avax1mvpagent": 1000000
+    },
+    "resonanceDecayRate": 0.01,
+    "resonanceMax": 1000,
+    "baseFee": 1
+} 
