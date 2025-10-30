@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "types": ["node", "chai", "mocha", "hardhat"],
+    "skipLibCheck": true,
+    "outDir": "dist"
+  },
+  "include": ["hardhat.config.ts", "scripts/**/*.ts", "test/**/*.ts", "facilitator/**/*.ts", "sdk/node/**/*.ts", "contracts/**/*.sol"]
+}
