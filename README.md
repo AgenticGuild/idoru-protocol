@@ -197,9 +197,9 @@ flowchart TD
 
   subgraph AGENT DOMAIN
     D[Agent Runtime / LLM / Workflow Engine]
-    D --> E[Agent Smart Account (ERC-6551)]
-    E -->|Mint / Bind| F[Agent Identity NFT (ERC-8004)]
-    E -->|Invoke| G[Payment Gateway (x402 Resource Server)]
+    D --> E[Agent Smart Account ERC-6551]
+    E -->|Mint / Bind| F[Agent Identity NFT ERC-8004]
+    E -->|Invoke| G[Payment Gateway x402 Resource Server]
   end
 
   subgraph INFRA LAYER
