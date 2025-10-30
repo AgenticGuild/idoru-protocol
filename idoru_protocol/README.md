@@ -1,3 +1,16 @@
+# Idoru Protocol — Mark II
+
+This repository now includes the Mark II stack: production-grade Solidity contracts, a Facilitator Node v2, SDKs, tests, and docs targeting Base Sepolia (84532).
+
+- Contracts: `contracts/`
+- Facilitator Node v2: `facilitator/`
+- SDKs: `sdk/node`, `sdk/python`
+- Docs: `docs/`
+
+See `docs/PROTOCOL_OVERVIEW.md` and `docs/DEPLOYMENT_GUIDE.md` for details.
+
+---
+
 # Idoru Protocol MVP
 
 A minimal implementation of the Idoru Protocol, demonstrating HPC concurrency with Rust and on-chain finalization with Go/HyperSDK on Avalanche Subnets.

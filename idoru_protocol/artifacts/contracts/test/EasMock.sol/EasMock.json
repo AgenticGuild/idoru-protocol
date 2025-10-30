@@ -1,0 +1,43 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "EasMock",
+  "sourceName": "contracts/test/EasMock.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "isAttestationValid",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "revoke",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060ba8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063b75c7dc6146037578063e30bb563146047575b600080fd5b60456042366004606c565b50565b005b60586052366004606c565b50600190565b604051901515815260200160405180910390f35b600060208284031215607d57600080fd5b503591905056fea26469706673582212207820bc6a741293ce5357490d2ebf777c87e07a6f718e440d7c8bab6f6a31e1ec64736f6c63430008180033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c8063b75c7dc6146037578063e30bb563146047575b600080fd5b60456042366004606c565b50565b005b60586052366004606c565b50600190565b604051901515815260200160405180910390f35b600060208284031215607d57600080fd5b503591905056fea26469706673582212207820bc6a741293ce5357490d2ebf777c87e07a6f718e440d7c8bab6f6a31e1ec64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
