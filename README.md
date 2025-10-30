@@ -62,7 +62,7 @@ flowchart TD
 
   subgraph Agent Layer
     F[ERC-6551 Smart Accounts]
-    G[Autonomous Agents (LLM / RL / Symbolic)]
+    G[Autonomous Agents LLM / RL / Symbolic]
   end
 
   subgraph Capital Layer
